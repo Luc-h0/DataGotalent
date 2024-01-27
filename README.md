@@ -60,7 +60,7 @@
 | 8  | listed_in    | 60 non-null    | object | Thể loại chương trình                  |
 | 9  | description  | 60 non-null    | object | Giới thiệu chương trình                       |
 
-#### 2.4 Dữ liệu phim được thu thập thêm:
+#### 2.4 Dữ liệu phim được thu thập thêm
 
 | #   | Column       | Non-Null Count | Dtype  | Ý nghĩa                                             |
 |----|--------------|----------------|--------|------------------------------------------------------|
@@ -75,8 +75,8 @@
 | 8  | description  | 19 non-null    | object | Tóm tắt cốt truyện của bộ phim                       |
 | 9  | Link         | 19 non-null    | object | Đường dẫn đến trang web thu thập thông tin           |
 
-### 3. Phân tích vấn đề và đề xuất giải pháp:
-**a. Vấn để 1:** Đối tượng khách hàng của hãng đang có sự phân bố như thế nào? Thị hiếu của người xem hiện tại(2019) ra sao?  
+### 3. Phân tích vấn đề và đề xuất giải pháp 
+#### **a. Vấn để 1:** Đối tượng khách hàng của hãng đang có sự phân bố như thế nào? Thị hiếu của người xem hiện tại(2019) ra sao?  
 
 **Lợi ích:** Thông tin này có thể hữu ích cho các nhà làm phim và hãng phim điều chỉnh chiến lược tiếp thị và phân phối nhằm tối đa hóa phạm vi tiếp cận và doanh thu của họ. Ví dụ: họ có thể tập trung vào việc quảng bá các thể loại được khán giả trong nước phổ biến hơn và phân bổ nguồn lực phù hợp. Họ cũng có thể cân nhắc khám phá các kỹ thuật tiếp thị mới và độc đáo để thu hút nhiều người xem hơn và tạo tiếng vang cho phim. Ngoài ra, bộ phận kinh doanh có thể tiến hành nghiên cứu thị trường để xác định đối tượng mục tiêu cho phim của mình và tạo nội dung phù hợp với họ. Bằng cách đó, họ có thể tăng cơ hội thành công trong ngành dịch vụ đầy cạnh tranh.
 
@@ -89,17 +89,18 @@ Bước 3: Kết hợp với yếu tố địa lý để tìm ra đặc trưng c
 Bước 4: Phân tích và đưa ra chiến lược phát triển.
 
   
-    <img src="Image/Age-Sex.png">
+    <img src="image/Seat.png">
 
 
 **&rarr; Trả lời câu :** 
 Về vấn đề đầu tiên, cụ thể là về dữ liệu khách hàng. Có thể thấy hầu hết là giới trẻ, phân khúc khách hàng này sử dụng mạng xã hội nhiều. Khi quảng cáo phim mới ta nên chú trọng và online marketing thông qua các mạng xã hội. Theo nguồn thông tin này cho ta biết các mạng xã hội có nhiều người dùng nhất, lần lượt là: Facebook, Youtube, Whatsapp, TikTok, ... Tiếp đến là dữ liệu phim ảnh, cụm rạp có thể xem xét việc nhận bản quyền chiếu các bộ phim thuộc thể loại mang lại nhiều doanh thu như kinh dị, hành động, khoa học viễn tưởng, … và tập trung các chiến dịch quảng cáo và các ưu đãi đối với các bộ phim này. Ngoài ra, các rạp cũng nên tập trung phát triển cơ sở vật chất ở các rạp thuộc những nơi mang lại lợi nhuận cho hệ thống rạp.
 
-**b. Vấn để 2:** Khách hàng có những sở thích như thế nào về chỗ ngồi? Đâu là phương pháp để việc kinh doanh bỏng ngô phát triển?  
+#### **b. Vấn để 2:** Khách hàng có những sở thích như thế nào về chỗ ngồi? Đâu là phương pháp để việc kinh doanh bỏng ngô phát triển?  
 **Lợi ích:** Trong thời gian gần đây, trải nghiệm người dùng đã trở thành một yếu tố quan trọng và được khách hàng đánh giá cao khi sử dụng dịch vụ. Khách hàng ngày càng mong đợi một trải nghiệm cá nhân hóa, đáp ứng nhu cầu và sở thích của họ một cách tốt nhất. 
 
 **Cách trả lời câu hỏi:**  
 Bước 1: Phân tích xu hướng lựa chọn `vị trí ngồi`.  
+    <img src="Image/Age-Sex.png">
 Bước 2: Phân tích xu hướng `mua bỏng ngô` của người đi xem phim.  
 Bước 3: Phân tích và đưa ra chiến lược phát triển.  
 
