@@ -128,7 +128,7 @@ Bước 1: Phân tích xu hướng lựa chọn `vị trí ngồi`.
 Bước 2: Phân tích xu hướng `mua bỏng ngô` của người đi xem phim.    
 Bước 3: Phân tích và đưa ra chiến lược phát triển.  
 
-**&rarr; Trả lời câu :** 
+**&rarr; Trả lời câu hỏi:** 
 Đối với những cải thiện cho trải nghiệm người dùng, nhóm có một số đề xuất như sau: 
 Dịch vụ chăm sóc khách hàng:
 Cung cấp dịch vụ chăm sóc khách hàng tận tình và chuyên nghiệp cho khách ngồi ở dãy ghế F, E, G. Điều này bao gồm việc hướng dẫn, hỗ trợ và giải đáp mọi thắc mắc của họ để tạo ra trải nghiệm xem phim thuận lợi và thú vị.  
@@ -140,3 +140,6 @@ Ngoài ra, nhóm cũng đề xuất có một chiến dịch kéo dài 1 đến 
 
 ## III. Tư liệu tham khảo:  
 1. [Successful Film Marketing: An In-Depth Guide, Garrett Thierry, Feb 3 2023](https://www.garrett-thierry.com/post/successful-film-marketing-an-in-depth-guide)
+
+## IV. Tài liệu đính kèm:
+1. [Hướng dẫn cài đặt môi trường lập trình và cấu trúc file.]()
