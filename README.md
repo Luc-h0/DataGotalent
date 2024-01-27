@@ -5,12 +5,12 @@
 - **School:** University of Science - Viet Nam National University Ho Chi Minh City
   
     Mã số sinh viên|Họ và tên|Số điện thoại
-    -|-
-    21127|Kuo Young Sheng
-    21127|Nguyễn Hoàng Anh Tuấn
-    21127|Phan Đức Tài
-    21127|Dương Gia Hân
-    21127351|Hồ Đinh Duy Lực
+    -|-|-
+    21127|Kuo Young Sheng|09
+    21127|Nguyễn Hoàng Anh Tuấn|08
+    21127|Phan Đức Tài|09
+    21127|Dương Gia Hân|09
+    21127351|Hồ Đinh Duy Lực|0877731725
 
 
 - **Working Plan:** [Trello](https://trello.com/b/eya5drhR/main)
