@@ -6,17 +6,17 @@
   
     Mã số sinh viên|Họ và tên|Số điện thoại
     -|-|-
-    21127|Kuo Young Sheng|09
+    21127684|Kuo Young Sheng|0904098763 
     21127471|Nguyễn Hoàng Anh Tuấn|0913776073
     21127687|Phan Huy Đức Tài|0913003511
-    21127|Dương Gia Hân|09
+    21127605|Dương Gia Hân|0397774304
     21127351|Hồ Đinh Duy Lực|0877731725
 
 
 ## II. Thông tin dự án:
 ### 1. Bộ dữ liệu:
-- Bộ Data được cung cấp bởi Ban tổ chức cuộc thi Data Got Talent.
-- Bộ dữ liệu được cung cấp ghi nhận thông tin về các khách hàng và lịch sử xem phim của các cụm rạp chiếu phim khắp thành phố Đà Nẵng.
+- Nội dung: Bộ dữ liệu ghi nhận thông tin về các khách hàng và lịch sử xem phim của các cụm rạp chiếu phim khắp thành phố Đà Nẵng.
+- Nguồn: Bộ Data được cung cấp bởi Ban tổ chức cuộc thi Data Got Talent.
 
 ### 2. EDA
 #### 22.1 Dữ liệu khách hàng:
