@@ -84,12 +84,35 @@
 **Cách trả lời câu hỏi:**
 
 Bước 1: Phân tích, thống kê các số liệu về phân phối của khách hàng theo `độ tuổi`, `nghề nghiệp`, `lĩnh vực`. Phân tích `thời gian` khách hàng xem phim theo ngày trong tuần, trên tháng... Đòng thời ghi nhận những `đối tượng có đóng gớp lớn` cho doanh thu rạp phim.  
+
+<p float="left">
+  <img src="image/Histograme_of_age.png" height="400" />
+  <img src="image/Count_by_weekday.png" height="400" /> 
+</p>
+<p float="left">
+  <img src="image/Count_of_each_day.png" height="450"" />
+  
+</p>
+<p float="left">
+  <img src="image/Group_job_industry.png" weight ="700" />   
+</p>
+  
 Bước 2: Phân tích xu hướng phim ảnh mà các khách hàng quan tâm theo `diễn viên`, `thể loại` và `quốc gia`. Đồng thời, điều tra yếu tố `phân loại độ tuổi` có ảnh hưởng đến khách hàng hay không.  
+
+<p float="left">
+  <img src="image/country_features.png" height="400" />
+  <img src="image/Genre_features.png" height="400" /> 
+</p>
+
 Bước 3: Kết hợp với yếu tố địa lý để tìm ra đặc trưng của từng quận, huyện ở TP Đà Nẵng.  
+
+<p float="left">
+  <img src="image/Count_by_district.png" height="400" />
+</p>
+
 Bước 4: Phân tích và đưa ra chiến lược phát triển.
 
   
-    <img src="image/Seat.png">
 
 
 **&rarr; Trả lời câu :** 
@@ -99,20 +122,21 @@ Về vấn đề đầu tiên, cụ thể là về dữ liệu khách hàng. Có
 **Lợi ích:** Trong thời gian gần đây, trải nghiệm người dùng đã trở thành một yếu tố quan trọng và được khách hàng đánh giá cao khi sử dụng dịch vụ. Khách hàng ngày càng mong đợi một trải nghiệm cá nhân hóa, đáp ứng nhu cầu và sở thích của họ một cách tốt nhất. 
 
 **Cách trả lời câu hỏi:**  
-Bước 1: Phân tích xu hướng lựa chọn `vị trí ngồi`.  
-    <img src="Image/Age-Sex.png">
-Bước 2: Phân tích xu hướng `mua bỏng ngô` của người đi xem phim.  
+Bước 1: Phân tích xu hướng lựa chọn `vị trí ngồi`.    
+<center><img src="image/Seat.png" width="600" #center></center>   
+
+Bước 2: Phân tích xu hướng `mua bỏng ngô` của người đi xem phim.    
 Bước 3: Phân tích và đưa ra chiến lược phát triển.  
 
 **&rarr; Trả lời câu :** 
 Đối với những cải thiện cho trải nghiệm người dùng, nhóm có một số đề xuất như sau: 
 Dịch vụ chăm sóc khách hàng:
-Cung cấp dịch vụ chăm sóc khách hàng tận tình và chuyên nghiệp cho khách ngồi ở dãy ghế F, E, G. Điều này bao gồm việc hướng dẫn, hỗ trợ và giải đáp mọi thắc mắc của họ để tạo ra trải nghiệm xem phim thuận lợi và thú vị.
-Đảm bảo rằng dãy ghế này luôn sạch sẽ và thoải mái bằng cách kiểm tra và bảo trì định kỳ.
-Giảm Giá và Ưu Đãi Đặc Biệt:
-Chương trình khuyến mãi độc đáo với slogan "Ngồi ở đầu hàng, ăn bắp ngập tràn, ngồi ở hàng cuối, bắp ăn cắm cúi" đang chờ đón những khách hàng tại các ghế A, B, C, J, K. Nếu bạn là người mua vé đơn, hãy chuẩn bị trải nghiệm tuyệt vời với ưu đãi đặc biệt: mỗi vé kèm theo sẽ được tặng ngay 1 phần bắp nhỏ. Đối với những khách hàng mua từ 2 vé đơn trở lên, chúng tôi sẽ tặng phần bắp thêm, tương đương với số lượng đã mua. Đây là cơ hội lớn để bạn và bạn bè cùng nhau thưởng thức bộ phim yêu thích mà không lo lắng về việc đói bụng. Đồng thời, để tạo thêm hứng thú cho chương trình, nhóm đề xuất thiết kế lại túi đựng bỏng ngô độc đáo, lấy cảm hứng từ một bộ phim đang rất hot. Túi đựng bỏng ngô không chỉ là vật dụng hữu ích mà còn là một phần của trải nghiệm giải trí. Chúng tôi tin rằng, thông qua sự sáng tạo trong thiết kế túi, chúng tôi sẽ tạo ra làn sóng ủng hộ mạnh mẽ từ khách hàng, tăng cường không khí sôi động tại rạp phim và làm nổi bật thương hiệu của chúng tôi trong tâm trí khách hàng
+Cung cấp dịch vụ chăm sóc khách hàng tận tình và chuyên nghiệp cho khách ngồi ở dãy ghế F, E, G. Điều này bao gồm việc hướng dẫn, hỗ trợ và giải đáp mọi thắc mắc của họ để tạo ra trải nghiệm xem phim thuận lợi và thú vị.  
+Đảm bảo rằng dãy ghế này luôn sạch sẽ và thoải mái bằng cách kiểm tra và bảo trì định kỳ.  
+Giảm Giá và Ưu Đãi Đặc Biệt:  
+Chương trình khuyến mãi độc đáo với slogan "Ngồi ở đầu hàng, ăn bắp ngập tràn, ngồi ở hàng cuối, bắp ăn cắm cúi" đang chờ đón những khách hàng tại các ghế A, B, C, J, K. Nếu bạn là người mua vé đơn, hãy chuẩn bị trải nghiệm tuyệt vời với ưu đãi đặc biệt: mỗi vé kèm theo sẽ được tặng ngay 1 phần bắp nhỏ. Đối với những khách hàng mua từ 2 vé đơn trở lên, chúng tôi sẽ tặng phần bắp thêm, tương đương với số lượng đã mua. Đây là cơ hội lớn để bạn và bạn bè cùng nhau thưởng thức bộ phim yêu thích mà không lo lắng về việc đói bụng. Đồng thời, để tạo thêm hứng thú cho chương trình, nhóm đề xuất thiết kế lại túi đựng bỏng ngô độc đáo, lấy cảm hứng từ một bộ phim đang rất hot. Túi đựng bỏng ngô không chỉ là vật dụng hữu ích mà còn là một phần của trải nghiệm giải trí. Chúng tôi tin rằng, thông qua sự sáng tạo trong thiết kế túi, chúng tôi sẽ tạo ra làn sóng ủng hộ mạnh mẽ từ khách hàng, tăng cường không khí sôi động tại rạp phim và làm nổi bật thương hiệu của chúng tôi trong tâm trí khách hàng.  
 
-Ngoài ra, nhóm cũng đề xuất có một chiến dịch kéo dài 1 đến 3 tháng vào khung giờ từ 12h đến 6h trong đó có nội dung là người nào đi đơn mà mua bỏng ngô sẽ giảm tiền vé lại vào khoản 50%. Điều này sẽ giải quyết vấn đề những người mua vé đơn ít mua bỏng ngô. Việc này có thể tạo thành thói quen cho người đi đơn và về lâu về dài doanh số bán bỏng ngô sẽ tăng với việc bỏng ngô là món hàng mang lại lợi nhuận nhất trong rạp chiếu phim thì việc này hoàn toàn có lợi tuy rằng sẽ có lỗ trong ngắn hạn.
+Ngoài ra, nhóm cũng đề xuất có một chiến dịch kéo dài 1 đến 3 tháng vào khung giờ từ 12h đến 6h trong đó có nội dung là người nào đi đơn mà mua bỏng ngô sẽ giảm tiền vé lại vào khoản 50%. Điều này sẽ giải quyết vấn đề những người mua vé đơn ít mua bỏng ngô. Việc này có thể tạo thành thói quen cho người đi đơn và về lâu về dài doanh số bán bỏng ngô sẽ tăng với việc bỏng ngô là món hàng mang lại lợi nhuận nhất trong rạp chiếu phim thì việc này hoàn toàn có lợi tuy rằng sẽ có lỗ trong ngắn hạn.  
 
 ## III. Tư liệu tham khảo:  
 1. [Successful Film Marketing: An In-Depth Guide, Garrett Thierry, Feb 3 2023](https://www.garrett-thierry.com/post/successful-film-marketing-an-in-depth-guide)
