@@ -1,34 +1,80 @@
-# Programming for Data Science Final Project
+# Cuộc thi Data Gotalent
 
-## I. Team members information:
+## I. Thông tin nhóm:
 
-- **School:** University of Science - Viet Nam National University Ho Chi Minh City
+- **Trường:** Trường Đại học Khoa học Tự nhiên- Đại học Quốc gia Thành phố Hồ Chí Minh
   
     Mã số sinh viên|Họ và tên|Số điện thoại
     -|-|-
     21127|Kuo Young Sheng|09
-    21127|Nguyễn Hoàng Anh Tuấn|08
-    21127|Phan Đức Tài|09
+    21127471|Nguyễn Hoàng Anh Tuấn|0913776073
+    21127687|Phan Huy Đức Tài|0913003511
     21127|Dương Gia Hân|09
     21127351|Hồ Đinh Duy Lực|0877731725
 
 
-- **Working Plan:** [Trello](https://trello.com/b/eya5drhR/main)
-
-    <img src="Image/Trello.png">
-
-## II. Project information:
-### 1. Dataset
-Heart failure, a common consequence of Cardiovascular diseases (CVDs), is addressed in this [dataset](#https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction), encompassing 11 distinct features that enable the prediction of potential heart disease.
+## II. Thông tin dự án:
+### 1. Bộ dữ liệu:
+- Bộ Data được cung cấp bởi Ban tổ chức cuộc thi Data Got Talent.
+- Bộ dữ liệu được cung cấp ghi nhận thông tin về các khách hàng và lịch sử xem phim của các cụm rạp chiếu phim khắp thành phố Đà Nẵng.
 
 ### 2. EDA
-- **Column Meaning**
-  
-    <img src="Image/Column-meaning.png">
+#### 22.1 Dữ liệu khách hàng:
+| ID | Column | Non-Null Count | Dtype | Meaning |
+|----|--------|----------------|-------|---------|
+| 0  | customerid | 4479 non-null  | object | Mã khách hàng |
+| 1  | DOB        | 4479 non-null  | int64  | Ngày sinh |
+| 2  | gender     | 4479 non-null  | object | Giới tính |
+| 3  | address    | 4478 non-null  | object | Địa chỉ |
+| 4  | Website    | 3943 non-null  | object | Dữ liệu web |
+| 5  | job        | 4479 non-null  | object | Công việc |
+| 6  | industry   | 3357 non-null  | object | Lĩnh vực |
 
-- **Column Types**
+#### 2.2 Dữ liệu bán vé:
 
-    <img src="Image/Column-type.png" height=250>
+| ID | Column | Non-Null Count | Dtype | Meaning |
+|----|--------|----------------|-------|---------|
+| 0  | cashier | 35378 non-null | object | Nhân viên thu ngân |
+| 1  | saledate | 35378 non-null | datetime64[ns] | Ngày bán |
+| 2  | total | 35378 non-null | float64 | Tổng tiền |
+| 3  | customerid | 35378 non-null | object | Mã khách hàng |
+| 4  | slot | 35378 non-null | object | Suất chiếu |
+| 5  | room | 35378 non-null | int64 | Phòng chiếu |
+| 6  | film | 35378 non-null | object | Tên phim |
+| 7  | slot type | 35378 non-null | object | Loại suất chiếu |
+| 8  | ticket price | 35378 non-null | int64 | Giá vé |
+| 9  | popcorn | 35378 non-null | object | Bỏng ngô |
+
+
+#### 2.3 Dữ liệu Phim được chiếu
+| ID | Column       | Non-Null Count | Dtype  | Meaning                                              |
+|----|--------------|----------------|--------|------------------------------------------------------|
+| 0  | show_id      | 60 non-null    | object | Mã định danh phim                   |
+| 1  | title        | 60 non-null    | object | Tên bộ phim                                 |
+| 2  | director     | 50 non-null    | object | Tên đạo diễn bộ phim                 |
+| 3  | cast         | 54 non-null    | object | Các diễn viên tham gia chương trình         |
+| 4  | country      | 53 non-null    | object | Các quốc gia tham gia sản xuất phim |
+| 5  | release_year | 60 non-null    | int64  | Năm phát hành chương trình                  |
+| 6  | rating       | 59 non-null    | object | The age rating of the show                           |
+| 7  | duration     | 60 non-null    | object | Độ dài chương trình(phút) hoặc mùa        |
+| 8  | listed_in    | 60 non-null    | object | Thể loại chương trình                  |
+| 9  | description  | 60 non-null    | object | Giới thiệu chương trình                       |
+
+#### 2.4 Dữ liệu phim được thu thập thêm:
+
+| #   | Column       | Non-Null Count | Dtype  | Ý nghĩa                                             |
+|----|--------------|----------------|--------|------------------------------------------------------|
+| 0  | film         | 19 non-null    | object | Tên của bộ phim                                      |
+| 1  | count        | 19 non-null    | int64  | Số lượng vé bán ra của bộ phim                        |
+| 2  | cast         | 19 non-null    | object | Danh sách các diễn viên  trong bộ phim |
+| 3  | country      | 19 non-null    | object | Quốc gia hoặc các quốc gia sản xuất bộ phim           |
+| 4  | release_year | 19 non-null    | int64  | Năm phát hành của bộ phim                            |
+| 5  | rating       | 19 non-null    | object | Đánh giá độ tuổi của bộ phim                         |
+| 6  | duration     | 19 non-null    | object | Thời lượng của bộ phim theo phút            |
+| 7  | listed_in    | 19 non-null    | object | Thể loại hoặc các thể loại của bộ phim                |
+| 8  | description  | 19 non-null    | object | Tóm tắt cốt truyện của bộ phim                       |
+| 9  | Link         | 19 non-null    | object | Đường dẫn đến trang web thu thập thông tin           |
+
 
 - **Distribution**
     - Numeric Values
@@ -39,65 +85,26 @@ Heart failure, a common consequence of Cardiovascular diseases (CVDs), is addres
       
     <img src="Image/Categorical-values.png">
 
-### 3. Asking Meaning Questions
-**a. Question 1:** How does the incidence of heart disease vary across different age groups and genders? 
 
-**Benefits:** This insight facilitates the development of targeted and personalized healthcare interventions for each age group and gender, leading to more effective health outcomes.
+
+### 3. Phân tích vấn đề và đề xuất giải pháp:
+**a. Question 1:** 
+
+**Benefits:** 
 
 **How to answer this question:**
 
-- Analyzing the impact of `Sex` and `Age` on `Heart Disease`
   
     <img src="Image/Age-Sex.png">
 
-- Detail on `Sex`
-  
-    <img src="Image/Sex.png">
 
-- Detail on `Age`
-  
-    <img src="Image/Age.png">
-    
-    <img src="Image/Age-distribution.png">
+**&rarr; Answer the question:** 
 
-**&rarr; Answer the question:** How does the incidence of heart disease vary across different age groups and genders?
-
-- **Gender Distribution:**
-
-    Among individuals with heart disease, the data shows a higher prevalence among males (63.2%) compared to females (25.9%). This suggests a notable gender disparity in the incidence of heart disease in the dataset, with males being more affected.
-
-- **Age Distribution:**
-
-    The age distribution indicates a higher prevalence of heart disease in the 55+ age group. This implies that as age increases, the likelihood of having heart disease also increases. Therefore, heart disease appears to be more prevalent among older individuals.
   
 <hr/>
 
-**b. Question 2:** Analyze the impact of factors directly related to blood and circulatory system on the risk of developing heart disease. Among these factors, which one has a significant influence and needs to be prioritized? 
-
-**Benefits:** This analysis provides a basis for informed decision-making in heart care and prevention. Moreover, identifying the most influential factor informs the development of tools such as heart rate monitors, aiding in early detection of irregularities. 
-
+**b. Question 2:** 
+**Benefits:** 
 **How to answer this question:**
 
-- Analyzing the distribution of `RestingBP`, `Cholesterol`, `FastingBS`, `MaxHR` on `HeartDisease`
-  
-  <img src="Image/Factors-distribution.png">
 
-- Training `Random Forest Classifier` to evaluate feature importance 
- 
-  - Classification Report
-    
-    <center>
-    <img src="Image/Classification-report.png" width=350>
-    </center>
-
-  - Value Importance
-    
-    <center>
-    <img src="Image/Value-importance.png" width=150>
-    </center>
-    
-    <img src="Image/Feature-importance.png">
-
-**&rarr; Answer the question:** Analyze the impact of factors directly related to blood and circulatory system on the risk of developing heart disease. Among these factors, which one has a significant influence and needs to be prioritized?
-
-- Among the factors directly related to the blood and circulatory system, **Maximum Heart Rate (MaxHR)** emerges as the most influential and significant predictor of heart disease. Both visual analysis and model importance highlight the pronounced impact of MaxHR on the risk of developing heart disease. 
