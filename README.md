@@ -2,12 +2,15 @@
 
 ## I. Team members information:
 
-- **Class:** 21KHDL
+- **School:** University of Science - Viet Nam National University Ho Chi Minh City
   
-    StudentID|Full Name
+    Mã số sinh viên|Họ và tên|Số điện thoại
     -|-
-    21127175|Le Anh Thu
-    21127693|Huynh Duc Thien
+    21127|Kuo Young Sheng
+    21127|Nguyễn Hoàng Anh Tuấn
+    21127|Phan Đức Tài
+    21127|Dương Gia Hân
+    21127351|Hồ Đinh Duy Lực
 
 
 - **Working Plan:** [Trello](https://trello.com/b/eya5drhR/main)
