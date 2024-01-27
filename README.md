@@ -6,7 +6,7 @@
   
     Mã số sinh viên|Họ và tên|Số điện thoại
     -|-|-
-    21127684|Kuo Young Sheng|0904098763 
+    21127684|Kuo Yung Sheng|0904098763 
     21127471|Nguyễn Hoàng Anh Tuấn|0913776073
     21127687|Phan Huy Đức Tài|0913003511
     21127605|Dương Gia Hân|0397774304
