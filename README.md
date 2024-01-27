@@ -75,18 +75,6 @@
 | 8  | description  | 19 non-null    | object | Tóm tắt cốt truyện của bộ phim                       |
 | 9  | Link         | 19 non-null    | object | Đường dẫn đến trang web thu thập thông tin           |
 
-
-- **Distribution**
-    - Numeric Values
-      
-    <img src="Image/Numeric-values.png">
-
-    - Categorical Values
-      
-    <img src="Image/Categorical-values.png">
-
-
-
 ### 3. Phân tích vấn đề và đề xuất giải pháp:
 **a. Vấn để 1:** Đối tượng khách hàng của hãng đang có sự phân bố như thế nào? Thị hiếu của người xem hiện tại(2019) ra sao?  
 
@@ -126,4 +114,4 @@ Chương trình khuyến mãi độc đáo với slogan "Ngồi ở đầu hàng
 Ngoài ra, nhóm cũng đề xuất có một chiến dịch kéo dài 1 đến 3 tháng vào khung giờ từ 12h đến 6h trong đó có nội dung là người nào đi đơn mà mua bỏng ngô sẽ giảm tiền vé lại vào khoản 50%. Điều này sẽ giải quyết vấn đề những người mua vé đơn ít mua bỏng ngô. Việc này có thể tạo thành thói quen cho người đi đơn và về lâu về dài doanh số bán bỏng ngô sẽ tăng với việc bỏng ngô là món hàng mang lại lợi nhuận nhất trong rạp chiếu phim thì việc này hoàn toàn có lợi tuy rằng sẽ có lỗ trong ngắn hạn.
 
 ## III. Tư liệu tham khảo:  
-1. [Successful film marketing: an in-depth Insigh, Garrett Thierry, Feb 3, 2023](https://www.garrett-thierry.com/post/successful-film-marketing-an-in-depth-guide)
+1. [Successful Film Marketing: An In-Depth Guide, Garrett Thierry, Feb 3 2023](https://www.garrett-thierry.com/post/successful-film-marketing-an-in-depth-guide)
