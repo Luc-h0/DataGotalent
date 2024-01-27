@@ -86,8 +86,8 @@
 Bước 1: Phân tích, thống kê các số liệu về phân phối của khách hàng theo `độ tuổi`, `nghề nghiệp`, `lĩnh vực`. Phân tích `thời gian` khách hàng xem phim theo ngày trong tuần, trên tháng... Đòng thời ghi nhận những `đối tượng có đóng gớp lớn` cho doanh thu rạp phim.  
 
 <p float="left">
-  <img src="image/Histograme_of_age.png" height="400" />
-  <img src="image/Count_by_weekday.png" height="400" /> 
+  <img src="image/Histograme_of_age.png" height="300" />
+  <img src="image/Count_by_weekday.png" height="300" /> 
 </p>
 <p float="left">
   <img src="image/Count_of_each_day.png" height="450"" />
@@ -100,8 +100,8 @@ Bước 1: Phân tích, thống kê các số liệu về phân phối của kh�
 Bước 2: Phân tích xu hướng phim ảnh mà các khách hàng quan tâm theo `diễn viên`, `thể loại` và `quốc gia`. Đồng thời, điều tra yếu tố `phân loại độ tuổi` có ảnh hưởng đến khách hàng hay không.  
 
 <p float="left">
-  <img src="image/country_features.png" height="400" />
-  <img src="image/Genre_features.png" height="400" /> 
+  <img src="image/country_features.png" height="300" />
+  <img src="image/Genre_features.png" height="300" /> 
 </p>
 
 Bước 3: Kết hợp với yếu tố địa lý để tìm ra đặc trưng của từng quận, huyện ở TP Đà Nẵng.  
